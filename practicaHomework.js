@@ -1,5 +1,3 @@
-function sinRetorno() {
-    console.log("Hola Mundo!");
-}
-
-console.log(sinRetorno());
+var frutas = ['Banano', 'Fresa'];
+var posicion = frutas.indexOf('Sara');
+console.log(posicion);

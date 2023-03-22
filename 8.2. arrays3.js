@@ -13,6 +13,11 @@ numeros.forEach((elemento) => {
     }
 })
 
+var fibonacci = [1, 1, 2, 3, 5, 8, 13, 21, 34];
+fibonacci.forEach((num) => {
+    console.log(num);
+})
+
 // El método map() también nos permite recorrer un arreglo y realizar una acción por cada elemento. 
 // La diferencia es que este método devuelve un nuevo arreglo con los elementos modificados.
 

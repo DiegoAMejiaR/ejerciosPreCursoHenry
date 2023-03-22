@@ -1,14 +1,20 @@
-/*Métodos varios
+/* Métodos varios
 
-El método includes() determina si un arreglo incluye o contiene un elemento específico. Devuelve true o false en cada caso.
+ * El método includes() determina si un arreglo incluye
+ * o contiene un elemento específico.
+ * Devuelve true o false en cada caso.
 
-El método every() determina si todos los elementos en un arreglo satisfacen una misma condición.
+ * El método every() determina si todos los elementos
+ * en un arreglo satisfacen una misma condición.
 
-El método split() convierte un string en un arreglo, donde cada elemento contendrá un sub-string, dependiendo del parámetro divisor que indiquemos.
+ * El método split() convierte un string en un arreglo,
+ * donde cada elemento contendrá un sub-string,
+ * dependiendo del parámetro divisor que indiquemos.
 
-El método join() convierte un arreglo en un string, uniendo todos los elementos de este en una misma cadena.*/
+ * El método join() convierte un arreglo en un string,
+ * uniendo todos los elementos de este en una misma cadena.*/
 
-// Método includes
+// MÉTODO INCLUDES()
 
 var pintores = ["Picasso", "Velasquez", "Van Gogh", "Dali"];
 var cumpleCondicionPintores = pintores.includes("Monet");
@@ -19,7 +25,7 @@ if (cumpleCondicionPintores) {
 }
 
 
-// Método every
+// MÉTODO EVERY
 
 var numeros = [3, 4, 6, 8, 9];
 
@@ -36,17 +42,17 @@ if (condicion) {
     console.log("El arreglo no cumple la condición");
 }
 
-// Método Split (Separar)
+// MÉTODO SPLIT (Separar)
 
 var palabra = "Henri";
-var palabraSeparada = palabra.split(''); // Las comillas simples, significan que pedimos al método que separe por cada caracter.
+var palabraSeparada = palabra.split(''); // Las comillas simples, significan que pedimos al método que separe por cada carácter.
 console.log(palabraSeparada);
 palabraSeparada.pop();
 palabraSeparada.push('y');
 console.log(palabraSeparada);
 
 
-// Método Join (Unir)
+// MÉTODO JOIN (Unir)
 
 var palabraArreglada = palabraSeparada.join('');
 console.log(palabraArreglada);

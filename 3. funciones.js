@@ -21,7 +21,7 @@ var sumaTres = function (x) {
 console.log(sumaTres(5));
 
 
-/* ** Tercera forma de declarar una función **
+/* * * Tercera forma de declarar una función * * *
     Conocida como función de flecha */
 var sumaTres = (x) => {
     return x + 3;
