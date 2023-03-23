@@ -9,8 +9,10 @@ var libro = {
 
 console.log(libro.hasOwnProperty("genero"));
 
-/* El método: hasOwnProperty devuelve un booleano. true, si el objeto tiene una propiedad llamada según el argumento 
-    que le pasamos, o false, si el objeto no tiene una propiedad llamada según el argumento pasado al método */
+/* El método: hasOwnProperty devuelve un booleano. 
+ * true, si el objeto tiene una propiedad llamada según el argumento 
+ * que le pasamos, o false, si el objeto no tiene una propiedad
+ * llamada según el argumento pasado al método */
 
 // Conocer el nombre de las propiedades de un objeto
 
@@ -20,8 +22,8 @@ console.log(Object.keys(libro));
 
 //  Cómo recorrer un OBJETO
 
-/* Para recorrer un objeto, hacemos uso de bucle for, con alguna modificación
-    al bucle for tradiciona. Veamos */
+/* Para recorrer un objeto, hacemos uso del bucle for,
+ * con alguna modificación al bucle for tradicional */
 
 for (let propiedad in libro) {
     console.log("Propiedad: " + propiedad + ". Valor: " + libro[propiedad]);
