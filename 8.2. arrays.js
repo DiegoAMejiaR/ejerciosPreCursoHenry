@@ -1,4 +1,4 @@
-// El método forEach() nos permite recorrer un arreglo, realizando alguna acción en para cada elemento.
+// El método forEach() nos permite recorrer un arreglo, realizando alguna acción para cada elemento.
 // El método forEach no hará ningún cambio sobre el arreglo.
 // forEach (para cada uno)
 

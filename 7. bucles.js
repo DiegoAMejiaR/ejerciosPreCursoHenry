@@ -31,17 +31,17 @@ while (i < 10) {
  * 
  * Sintaxis:
   switch (expresión) {
-        case valor1:
+      case valor1:
         //Declaraciones ejecutadas cuando el resultado de expresión coincide con el valor1
         [break;]
-  case valor2:
+      case valor2:
         //Declaraciones ejecutadas cuando el resultado de expresión coincide con el valor2
         [break;]
         ...
-  case valorN:
+      case valorN:
         //Declaraciones ejecutadas cuando el resultado de expresión coincide con valorN
         [break;]
-  default:
+      default:
         //Declaraciones ejecutadas cuando ninguno de los valores coincide con el valor de la expresión
         [break;]
 }
@@ -56,9 +56,9 @@ while (i < 10) {
  * se ejecute al menos una vez.
  * 
  * Sintaxis:
-    do
+    do {
         sentencia
-    while (condición);
+    } while (condición);
 
  * Declaración Continue
 

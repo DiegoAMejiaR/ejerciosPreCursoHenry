@@ -19,6 +19,7 @@
 
 
 var listaCompras = []; //Declaración del arreglo
+
 listaCompras[0] = "Tomate";
 listaCompras[1] = "Arroz";
 console.log(listaCompras[0]); // Tomate
@@ -34,6 +35,7 @@ function tamanyoArreglo(arreglo) {
 console.log("El arreglo tiene " + tamanyoArreglo(listaCompras) + " elementos.");
 
 /* MÉTODOS DEL ARRAYS
+ *
  * Los arreglos, además de ser un tipo de dato,
  * también son un objeto global dentro de JavaScript.
  * Esto significa que todos los arreglos están asociados
@@ -45,22 +47,18 @@ console.log("El arreglo tiene " + tamanyoArreglo(listaCompras) + " elementos.");
 
 var array = [];
 function añadirAlFinal(arreglo, elementoAAñadir) {
-    var nuevaLongitudArreglo = arreglo.push(elementoAAñadir);
-    return nuevaLongitudArreglo;
+    return arreglo.push(elementoAAñadir); // Añado el elemento y retorno la nueva longitud del array   
 }
 var elemento = "Coco Jambo";
 var longitud = añadirAlFinal(array, elemento);
 console.log("Elemento: " + '"' + elemento + '"' + ". Añadido correctamente. El arreglo, tiene ahora " + longitud + " elemento(s)");
-añadirAlFinal(array, "Diego Mejía");
-console.log(array);
 
 /* MÉTODO UNSHIFT()
  * El método unshift() agrega uno o más elementos
  * al inicio de un arreglo, y devuelve la nueva longitud del array. */
 
 function anyadirAlInicio(arreglo, elemento) {
-    arreglo.unshift(elemento);
-    return arreglo;
+    return arreglo.unshift(elemento);
 }
 anyadirAlInicio (listaCompras, "Pizza Congelada");
 console.log(listaCompras);

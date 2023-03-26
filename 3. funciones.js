@@ -58,7 +58,7 @@ Por ejemplo: HolaMundo / FuncionEdadAños
 snake_case
 –
 La nomenclatura snake_case  es definida de esta forma porque
-siempre la usamos sobre el piso. Las letras siempre  serán
+siempre la usamos sobre el piso. Las letras siempre serán
 minúsculas y las  palabras están separadas por un guion bajo
 de esta forma: hola_mundo / funcion_edad_años
 
