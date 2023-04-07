@@ -1,5 +1,4 @@
-/* El método map, nos permite transformar los elementos de
- * un arreglo donde el método de map va a tomar un arreglo de una
+/* El método map va a tomar un arreglo de una
  * cantidad determinada y nos va a devolver otro arreglo que va a
  * tener exactamente la misma longitud del arreglo inicial pero con todos
  * los elementos cambiados dependiendo de la función que se aplico a estos 
