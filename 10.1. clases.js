@@ -1,4 +1,4 @@
-// Declaración tipo EXPRESIÓN DE CLASE
+// EXPRESIÓN DE CLASE
 class Auto {
     constructor(puertas, color, marca, anyo, ruedas) {
         this.puertas = puertas;

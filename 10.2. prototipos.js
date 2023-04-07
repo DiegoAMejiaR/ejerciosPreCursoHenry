@@ -7,9 +7,9 @@ los objetos y las clases.*/
 
 // Ejemplo:
 
-// EL TIPO DE DATO ARRAY => proviene => del OBJETO GLOBAL ARRAY 
+// EL TIPO DE DATO ARRAY proviene del OBJETO GLOBAL LLAMADO ARRAY 
 // Este objeto global le extiende mediante su PROTOTIPO
-// propiedades y métodos al tipo de dato Array
+// propiedades y métodos al tipo de dato Array.
 // Lo mismo ocurre con los objetos, números, string, e incluso
 // con las clases que podemos crear. 
 

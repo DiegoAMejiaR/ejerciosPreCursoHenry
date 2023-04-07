@@ -22,10 +22,10 @@ console.log(sumaTres(5));
 
 
 /* * * Tercera forma de declarar una función * * *
-    Conocida como función de flecha */
-var sumaTres = (x) => {
-    return x + 3;
-};
+    Conocida como función de flecha (arrow functions)*/
+var sumaTres = (x) => x + 3;
+
+console.log(sumaTres(6));
 
 /* Existen diferentes maneras de escribir
     nombres dentro del mundo del código.

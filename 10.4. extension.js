@@ -1,6 +1,12 @@
 /* A partir de una clase con ciertas propiedades y ciertos métodos,
-podremos crear otras clases que hereden algunas de esas propiedades
-o métodos.*/
+ * podremos crear otras clases que hereden algunas de esas propiedades
+ * o métodos.
+
+ * Extender clases nos va a permitir tener una clase general
+ * que le heredará propiedades y métodos a otras clases.
+ * De esta forma, podremos generar distintas sub-entidades
+ * que puedan mantener sus propias características,
+ * pero que compartan algunas otras generales. */
 
 class Persona {
     constructor(nombre, edad) {
